@@ -10,7 +10,7 @@
 
 ## 正文
 
- ![image](image\eureka_architecture.png)
+ ![image](image/eureka_architecture.png)
 
 
 >在上述中引用的我也不知道源头的图片
