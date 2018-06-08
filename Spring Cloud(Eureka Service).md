@@ -10,7 +10,7 @@
 
 ## 正文
 
- ![image](D:\mdimage\eureka_architecture.png)
+ ![image](image\eureka_architecture.png)
 
 
 >在上述中引用的我也不知道源头的图片
@@ -74,7 +74,7 @@ eureka.client.register-with-eureka= false
 &emsp;&emsp;
 
 到了这里，一个简单的eureka server的配置就基本搞定，现在需要告诉spring启动Eureka Server，我们只需要在主类上添加一个注解@EnableEurekaServer 然后启动应用访问地址，当你看到的页面如下，恭喜Eureka Server部署成功
-![image](D:\mdimage\eureka_server_html.png)
+![image](image\eureka_server_html.png)
 
 &emsp;&emsp;  
 接下来我们开始尝试去写一个服务提供者，并在eureka server上进行注册。  
@@ -104,6 +104,6 @@ eureka:
 ```
 &emsp;&emsp;  
 最后在主类上添加一个@EnableEurekaServer 注解并启动应用，你再次访问你部署的eureka server页面是会看到如下图
-![image](D:\mdimage\eureka_server_register.png)
+![image](image\eureka_server_register.png)
 &emsp;&emsp;
 那么服务的提供方现在以及注册成功
